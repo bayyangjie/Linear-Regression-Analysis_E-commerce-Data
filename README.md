@@ -1,10 +1,10 @@
 # Linear Regression Analysis - E-commerce Data
 
 # Background
-This is an e-commerce analysis for a store which offers in-store style and clothing advice sessions. Customers come in to the store, have sessions/meetings with a personal stylist, then they can go home and order either on a mobile app or website for the clothes they want. The business is trying to decide whether to focus their efforts on their mobile app experience or their website.
+This is an e-commerce analysis for a store which offers in-store style and clothing advice sessions. Customers come in to the store, have sessions/meetings with a personal stylist, then they can go home and order either on a mobile app or website for the clothes they want. 
 
 # Objective
-With the use of linear regression, the anaylsis aims to help the business determine which of the two channels are generating more revenue.
+The business is trying to decide whether to focus efforts on their mobile app experience or their online website. With the use of linear regression, the anaylsis aims to help the business determine which of the two channels is yielding higher customer yearly expenditure.
 
 # About the dataset
 The dataset was retrieved from [Kaggle](https://www.kaggle.com/datasets/kolawale/focusing-on-mobile-app-or-website/data). It contains the following information:
