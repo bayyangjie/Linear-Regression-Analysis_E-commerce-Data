@@ -28,7 +28,7 @@ Performed EDA to understand the correlation between all variables. This can be u
 Split the data into training (70%) and testing (30%) data and fit the training data (X_train, y_train) to the linear model for model training.
 
 3. Model Training <br>
-Training the model using the training data (X_train, y_train).
+Training the model by fitting the training data (X_train, y_train).
 
 4. Generating Predictions <br>
 After model training, the model is used to generate predictions of the response variable using the testing data (X_test).
