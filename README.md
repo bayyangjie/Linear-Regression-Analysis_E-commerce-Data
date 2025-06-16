@@ -18,10 +18,10 @@ The dataset was retrieved from [Kaggle](https://www.kaggle.com/datasets/kolawale
 Performed EDA to understand the correlation between all variables. This can be used to validate results from the regression model.
 
 2. Train Test Split <br>
-Split the data into training and testing data at 70% and 30% respectively then fitting the data to the linear model and perform model training.
+Split the data into training (70%) and testing (30%) data and fitted the data to the linear model for performing model training.
 
 3. Making Predictions <br>
-After model training, the unseen data (X_test) is fitted to the model to generate prediction values of the response variable.
+After model training, the model is used to generate predictions of the response variable using the testing data (X_test).
 
 4. Model Evaluation <br>
 The model performance is evaluated using evaluation metrics such as MAE, MSE and RMSE which gives an overall assessment of how off the predictions are from the actual values. Residual analysis was also conducted as part of the model evaluation to verify whether the residuals (i.e., the differences between actual and predicted values) follow a normal distribution — which would indicate that the model errors are randomly distributed (spread around zero, both positive and negative without structure) and generally small across all data points.
