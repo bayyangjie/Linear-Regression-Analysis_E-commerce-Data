@@ -13,6 +13,13 @@ The dataset was retrieved from [Kaggle](https://www.kaggle.com/datasets/kolawale
 * Time on Website: Average time spent on Website in minutes
 * Length of Membership: Number of years the customer has been a member with the business.
 
+# Libraries used
+* sklearn
+* pandas
+* matplotlib
+* seaborn
+* scipy
+  
 # Approach
 1. EDA <br>
 Performed EDA to understand the correlation between all variables. This can be used to validate results derived from the regression model.
@@ -20,10 +27,13 @@ Performed EDA to understand the correlation between all variables. This can be u
 2. Train Test Split <br>
 Split the data into training (70%) and testing (30%) data and fit the training data (X_train, y_train) to the linear model for model training.
 
-3. Making Predictions <br>
+3. Model Training <br>
+Training the model using the training data (X_train, y_train).
+
+4. Generating Predictions <br>
 After model training, the model is used to generate predictions of the response variable using the testing data (X_test).
 
-4. Model Evaluation <br>
+5. Model Evaluation <br>
 The model performance is evaluated using evaluation metrics such as MAE, MSE and RMSE which gives an overall assessment of how off the predictions are from the actual values. Residual analysis was also conducted as part of the model evaluation to verify whether the residuals (i.e., the differences between actual and predicted values) follow a normal distribution — which would indicate that the model errors are randomly distributed (spread around zero, both positive and negative without structure) and generally small across all data points.
 
 # Key Findings
