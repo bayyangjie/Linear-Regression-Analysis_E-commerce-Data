@@ -1,4 +1,4 @@
-# E-commerce Data Analysis with Linear Regression
+# Linear Regression of E-commerce Data
 
 # Background
 This is an e-commerce analysis for a store which offers in-store style and clothing advice sessions. Customers come in to the store, have sessions/meetings with a personal stylist, then they can go home and order either on a mobile app or website for the clothes they want. The business is trying to decide whether to focus their efforts on their mobile app experience or their website.
