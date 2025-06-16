@@ -18,7 +18,7 @@ The dataset was retrieved from [Kaggle](https://www.kaggle.com/datasets/kolawale
 Performed EDA to understand the correlation between all variables. This can be used to validate results derived from the regression model.
 
 2. Train Test Split <br>
-Split the data into training (70%) and testing (30%) data and fitted the data to the linear model for performing model training.
+Split the data into training (70%) and testing (30%) data and fit the training data (X_train, y_train) to the linear model for model training.
 
 3. Making Predictions <br>
 After model training, the model is used to generate predictions of the response variable using the testing data (X_test).
