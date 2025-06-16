@@ -15,7 +15,7 @@ The dataset was retrieved from [Kaggle](https://www.kaggle.com/datasets/kolawale
 
 # Approach
 1. EDA <br>
-Performed EDA to understand the correlation between all variables. This can be used to validate results from the regression model.
+Performed EDA to understand the correlation between all variables. This can be used to validate results derived from the regression model.
 
 2. Train Test Split <br>
 Split the data into training (70%) and testing (30%) data and fitted the data to the linear model for performing model training.
