@@ -8,10 +8,14 @@ The business is trying to decide whether to focus efforts on their mobile app ex
 
 # About the dataset
 The dataset was retrieved from [Kaggle](https://www.kaggle.com/datasets/kolawale/focusing-on-mobile-app-or-website/data). It contains the following information:
+* Email: Email address of the customer
+* Address: Residential address of the customer
+* Avatar: Stylist that the customer had consulted with in-store
 * Avg. Session Length: Average session of in-store style advice sessions.
 * Time on App: Average time spent on App in minutes
 * Time on Website: Average time spent on Website in minutes
 * Length of Membership: Number of years the customer has been a member with the business.
+* Yearly Amount Spent: Amount spent by the customer in the year
 
 # Libraries used
 * sklearn
