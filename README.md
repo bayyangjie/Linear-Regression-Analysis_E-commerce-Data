@@ -26,3 +26,8 @@ After model training, the model is used to generate predictions of the response 
 4. Model Evaluation <br>
 The model performance is evaluated using evaluation metrics such as MAE, MSE and RMSE which gives an overall assessment of how off the predictions are from the actual values. Residual analysis was also conducted as part of the model evaluation to verify whether the residuals (i.e., the differences between actual and predicted values) follow a normal distribution — which would indicate that the model errors are randomly distributed (spread around zero, both positive and negative without structure) and generally small across all data points.
 
+# Key Findings
+The length of membership appears to be the most significant factor on the yearly amount spent by customers. However, comparing between the amount of time spent on the mobile app vs time spent on website, the time spent on website almost has no correlation to the yearly amount spent. On the other hand, time spent on mobile apps have a relatively large influence.
+
+# Further Works
+Further works can be done by including additional data about the products that customers purchased through the mobile app. Clustering can be performed to cluster customers in terms of the product categories they spend on and their spending habits such as purchased amounts and frequency. With such insights, the business can create personalized advertisements targeted towards each cluster of customers. By providing a personalized shopping experience, customers could feel more valued and this can benefit the business by ensuring customer retention.
