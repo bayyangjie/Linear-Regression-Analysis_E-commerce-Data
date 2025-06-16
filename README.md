@@ -14,15 +14,15 @@ The dataset was retrieved from [Kaggle](https://www.kaggle.com/datasets/kolawale
 * Length of Membership: Number of years the customer has been a member with the business.
 
 # Approach
-1. EDA
+1. EDA <br>
 Performed EDA to understand the correlation between all variables. This can be used to validate results from the regression model.
 
-2. Train Test Split
+2. Train Test Split <br>
 Split the data into training and testing data at 70% and 30% respectively then fitting the data to the linear model and perform model training.
 
-3. Making Predictions
-After model training, the unseen data (X_test) is fitted to the model to generate prediction values of the repsonse variable.
+3. Making Predictions <br>
+After model training, the unseen data (X_test) is fitted to the model to generate prediction values of the response variable.
 
-4. Model Evaluation
+4. Model Evaluation <br>
 The model performance is evaluated using evaluation metrics such as MAE, MSE and RMSE which gives an overall assessment of how off the predictions are from the actual values. Residual analysis was also conducted as part of the model evaluation to verify whether the residuals (i.e., the differences between actual and predicted values) follow a normal distribution — which would indicate that the model errors are randomly distributed (spread around zero, both positive and negative without structure) and generally small across all data points.
 
